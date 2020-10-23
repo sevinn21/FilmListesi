@@ -1,0 +1,127 @@
+ .movie-list {
+    background-color: rgb(224, 202, 202);
+}
+.dataview-demo .p-dropdown {
+    width: 14rem;
+    font-weight: normal;
+}
+
+.dataview-demo .movie-name {
+    font-size: 1.0rem;
+    font-weight: 700;
+}
+
+.dataview-demo .movie-description {
+    margin: 0 0 1rem 0;
+    font-size: 0.9rem;
+    font-weight: 350;
+}
+
+.dataview-demo .movie-category-icon {
+    vertical-align: middle;
+    margin-right: .5rem;
+}
+
+.dataview-demo .movie-category {
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.dataview-demo .movie-list-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.dataview-demo .movie-list-item img {
+    width: 150px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    margin-right: 2rem;
+}
+
+.dataview-demo .movie-list-item .movie-list-detail {
+    flex: 1 1 0;
+}
+
+.dataview-demo .movie-list-item .p-rating {
+    margin: 0 0 .5rem 0;
+}
+
+.dataview-demo .movie-list-item .product-price {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+    align-self: flex-end;
+}
+
+.dataview-demo .movie-list-item .product-list-action {
+    display: flex;
+    flex-direction: column;
+}
+
+.dataview-demo .movie-list-item .p-button {
+    margin-bottom: .5rem;
+}
+
+.dataview-demo .movie-grid-item {
+    margin: .5em;
+    border: 1px solid #dee2e6;
+    padding: 2rem;
+}
+
+.dataview-demo .movie-grid-item .movie-grid-item-top,
+    .dataview-demo .movie-grid-item .movie-grid-item-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dataview-demo .movie-grid-item img {
+    width: 75%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    margin: 2rem 0;
+}
+
+.dataview-demo .movie-grid-item .movie-grid-item-content {
+    text-align: center;
+    background-color: rgb(175, 167, 167);
+}
+
+.dataview-demo .movie-grid-item .movie-price {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 576px) {
+    .dataview-demo .movie-list-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dataview-demo .movie-list-item img {
+        width: 75%;
+        margin: 2rem 0;
+    }
+
+    .dataview-demo .movie-list-item .movie-list-detail {
+        text-align: center;
+    }
+
+    .dataview-demo .movie-list-item .movie-price {
+        align-self: center;
+    }
+
+    .dataview-demo .movie-list-item .movie-list-action {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dataview-demo .movie-list-item .movie-list-action {
+        margin-top: 2rem;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+}

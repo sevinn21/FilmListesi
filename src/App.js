@@ -9,7 +9,7 @@ import 'primereact/resources/themes/nova/theme.css';
 import './DataViewDemo.css';
 console.log(movies);
 
-
+ 
 //görsellik için kullanmış olduğum bazı veriler movies.js te eklendi
 //DataViewDemo.css görsellik için sağlandı.
 function App() {

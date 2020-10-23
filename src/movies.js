@@ -6,7 +6,7 @@ const movies = [
     rating:3,
     image:'magic'
   },
-  {
+  { 
     id: 2,
     title: 'Five and Ten',
     description: 'Romance',

@@ -14,7 +14,7 @@ export default class MovieList extends Component {
             sortKey: null,
             sortOrder: null,
             sortField: null
-        };
+         };
         
         this.sortOptions = [
             {label: 'En çok beğenilene göre', value: '!rating'}, //başına ünlem koy
